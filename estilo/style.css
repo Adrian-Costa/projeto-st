@@ -21,7 +21,12 @@ body, html{
     background-image: url('../imagens/banner.png');
     background-repeat: no-repeat;
     width: 100vw;
-    box-shadow: 10px 0px 10px rgb(0, 0, 0);
+    height: 300px;
+    margin: 0px 0px 20px 0px;
+    padding: 20px;
+    box-shadow: 10px 0px 10px black;
+    display: grid;
+    align-items: center;
 }
 h1{
 }
@@ -41,7 +46,7 @@ nav > a:hover{
 }
 #banner{
     background-image: url('../imagens/imagemCard.png');
-    width: 940px;
+    width: 100vw;
     box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.788);
 }
 h3{
@@ -57,7 +62,6 @@ h3{
     text-decoration: none;
 }
 main{
-    display: flex;
 }
 #add{
     display: block;

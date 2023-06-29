@@ -103,34 +103,59 @@ h3{
     color: white;
     background-color: rgba(0, 0, 0, 0.773);
 }
+#add{
+    display: grid;
+    justify-items: center;
+}
 #card{
     display: flex;
+    margin: 7px;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(10, 10, 10);
+}
+#card:hover{
+    background-color: rgb(23, 23, 23);
 }
 #watch{
     display: flex;
 }
-div > div > p{
+#card > div > p{
+    margin: 0px 0px 10px 20px;
 }
 div > div > h4{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0px 0px 0px 20px;
 }
 #watch > img{
+    margin: 0px 0px 0px 20px;
 }
 #watch > img:hover{
     cursor: pointer;
 }
 #watch > p{
     color: rgb(88, 88, 88);
+    margin:  0px 0px 0px 10px;
+    font-weight: 600;
+    font-size: 1.2em;
 }
 #watch > p:hover{
     cursor: pointer;
+    color: rgb(255, 255, 255);
 }
 #trash > img{
     background-color: rgb(76, 76, 76);
+    height: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 10px 0px 30px;
 }
 #trash > img:hover{
     background-color: white;
     cursor: pointer;
 }
 footer{
-    height: 100px;
+    height: 40px;
 }

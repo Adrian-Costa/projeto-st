@@ -56,6 +56,7 @@ nav > a{
 nav > a:hover{
     border: 2px solid purple;
     background-color: purple;
+    transition-duration: 0.3s;
 }
 #banner{
     background-image: url('../imagens/imagemCard.png');
@@ -101,7 +102,8 @@ h3{
 }
 #content > a:hover{
     color: white;
-    background-color: rgba(0, 0, 0, 0.773);
+    background-color: rgba(0, 0, 0, 0.84);
+    transition-duration:0.4s;
 }
 #add{
     display: grid;
@@ -114,26 +116,30 @@ h3{
     padding: 10px;
     border-radius: 20px;
     background-color: rgb(10, 10, 10);
+    box-shadow: 5px 0px 10px rgb(0, 0, 0);
 }
 #card:hover{
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(16, 16, 16);
+    transition-duration: 0.3s;
 }
 #watch{
     display: flex;
 }
-#card > div > p{
-    margin: 0px 0px 10px 20px;
+#watch > img{
+    margin: 0px 0px 0px 20px;
 }
-div > div > h4{
+h4{
     font-size: 1.5em;
     font-weight: 400;
     margin: 0px 0px 0px 20px;
 }
-#watch > img{
-    margin: 0px 0px 0px 20px;
+#card > div > p{
+    margin: 0px 0px 10px 20px;
 }
 #watch > img:hover{
     cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.523);
 }
 #watch > p{
     color: rgb(88, 88, 88);
@@ -144,6 +150,8 @@ div > div > h4{
 #watch > p:hover{
     cursor: pointer;
     color: rgb(255, 255, 255);
+    transition-duration: 0.3s;
+    text-decoration: underline;
 }
 #trash > img{
     background-color: rgb(76, 76, 76);
@@ -155,6 +163,7 @@ div > div > h4{
 #trash > img:hover{
     background-color: white;
     cursor: pointer;
+    transition-duration: 0.3s;
 }
 footer{
     height: 40px;

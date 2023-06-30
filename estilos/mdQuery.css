@@ -84,7 +84,7 @@
     main{
         display: flex;
         gap: 5vw;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     h2{
         font-size: 1.8em;

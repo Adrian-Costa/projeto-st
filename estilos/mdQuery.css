@@ -36,6 +36,7 @@
     h1{
         font-size: 2.5em;
         margin-left: 50px;
+        color: red;
     }
     header > section > p{
         font-size: 1.2em;
@@ -82,7 +83,7 @@
     }
     main{
         display: flex;
-        gap: 8vw;
+        gap: 7vw;
         justify-content: space-around;
     }
     h2{
@@ -100,10 +101,9 @@
     }
     #banner{
         width: 60vw;
-        
     }
     #content{
-        gap: 7vw;
+        gap: 10vw;
     }
     #content > p{
         width: 30vw;

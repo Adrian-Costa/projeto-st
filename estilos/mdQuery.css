@@ -81,6 +81,7 @@
     }
     main{
         display: flex;
+        gap: 8vw;
     }
     h2{
         font-size: 1.8em;
@@ -103,7 +104,6 @@
     }
     #content > p{
         width: 30vw;
-        color: red;
     }
     #content > a{
         width: 10vw;
@@ -114,16 +114,22 @@
     #card{
         margin: 10px;
     }
-
-    
-    #watch > img{
+    #card > img{
+        height: 90px;
+        margin-top: 5px;
     }
     h4{
+        font-size: 1em;
+        font-weight: 500;
     }
     #card > div > p{
+        font-size: 0.9em;
     }
     #watch > p{
+        font-size: 1em;
+        font-weight: 700;
     }
-    #trash > img{
+    #watch{
+        margin-top: 25px;
     }
 }

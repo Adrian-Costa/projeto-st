@@ -78,6 +78,7 @@
         font-size: 1.2em;
         line-height: 30px;
         margin-left: 50px;
+        width: 935px;
     }
     main{
         display: flex;

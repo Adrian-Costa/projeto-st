@@ -104,13 +104,15 @@
         margin: 30px 0px 0px 50px;
     }
     #content{
-        gap: 10vw;
+        display: flex;
+        justify-content: space-between;
     }
     #content > p{
         width: 30vw;
     }
     #content > a{
         width: 10vw;
+        margin-right: 20px;
     }
     #col-r > h2{
         margin: 50px;
